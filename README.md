@@ -20,11 +20,17 @@ A. DataCleaner:
 In the DataCleaner folder, we have Data_Cleaning.py that can be used such that once we input raw data as input with a json file with arguments, we get cleaned data as output and list of features in updated data.
 
 We have 5 keys in json file that can be filled as needed. 
+
 Primary_id: can be filled with primary key of data
+
 Column_name: one of the columns to be converted to ohe (same column not included in columns_ohe)
+
 Columns_drop: filled with columns to be dropped from raw data
+
 Columns_ohe: columns to be converted to OHE
+
 Columns_01: columns that have Y,N values to be converted to 0/1
+
 Columns_drop_corr: additional columns to be dropped 
 
 We can call the python file as:
